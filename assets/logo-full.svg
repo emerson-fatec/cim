@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260">
+  <defs>
+    <linearGradient id="cSwashFull" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#e6c07c"/>
+      <stop offset="55%" stop-color="#d9a94f"/>
+      <stop offset="100%" stop-color="#a02864"/>
+    </linearGradient>
+    <linearGradient id="mLetterFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec5990"/>
+      <stop offset="100%" stop-color="#a02864"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.29  0 0 0 0 0.15  0 0 0 0 0.27  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="220" height="260" rx="14" fill="#fffaf3"/>
+  <rect x="0" y="0" width="220" height="260" rx="14" filter="url(#grain)"/>
+
+  <g transform="translate(10,10)">
+    <path d="M138.7,162.1 A68,68 0 1 1 138.7,57.9" fill="none" stroke="url(#cSwashFull)" stroke-width="16" stroke-linecap="round"/>
+    <line x1="122" y1="150" x2="168" y2="92" stroke="url(#cSwashFull)" stroke-width="16" stroke-linecap="round"/>
+    <text x="98" y="160" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-weight="700" font-size="132" fill="url(#mLetterFull)">M</text>
+  </g>
+
+  <text x="110" y="228" text-anchor="middle" font-family="Poppins, Segoe UI, sans-serif" font-weight="600" font-size="19" letter-spacing="3" fill="#33232f">PERSONALIZADO</text>
+</svg>
