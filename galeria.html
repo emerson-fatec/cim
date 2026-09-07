@@ -1,92 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Galeria — CIM Personalizados</title>
-<meta name="description" content="Galeria de produtos: bottons, chaveiros, lembrancinhas e presentes personalizados." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-<link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8F5M10ZHN3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<header class="site-header">
-  <div class="container">
-    <a href="index.html" class="brand"><span class="brand-logo-wrap"><img src="assets/logo-mark.svg" alt="CIM Personalizados" class="brand-logo" /></span> <span data-config="short-name">CIM Personalizados</span></a>
-    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-    <nav class="site-nav">
-      <a href="index.html">Início</a>
-      <a href="galeria.html" class="is-active">Galeria</a>
-      <a href="contato.html">Contato</a>
-      <a class="btn btn-whatsapp" data-config="whatsapp-href" href="#" target="_blank" rel="noopener">💬 WhatsApp</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-
-  <section class="gallery-hero">
-    <div class="container">
-      <h1>Nossa Galeria</h1>
-      <p>Clique em um produto para ver mais detalhes e perguntar pelo WhatsApp.</p>
-    </div>
-  </section>
-
-  <div class="filter-bar" id="filter-bar"></div>
-
-  <section style="padding-top: 0;">
-    <div class="container">
-      <div class="product-grid" id="gallery-grid"></div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <p class="brand"><span class="brand-logo-wrap"><img src="assets/logo-mark.svg" alt="CIM Personalizados" class="brand-logo" /></span> <span data-config="store-name">CIM Personalizados</span></p>
-        <p>Bottons, chaveiros, lembrancinhas e presentes personalizados, feitos à mão com todo carinho.</p>
+      gtag("config", "G-8F5M10ZHN3");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria — CIM Personalizados</title>
+    <meta
+      name="description"
+      content="Galeria de produtos: bottons, chaveiros, lembrancinhas e presentes personalizados."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="index.html" class="brand"
+          ><span class="brand-logo-wrap"
+            ><img
+              src="assets/logo-mark.svg"
+              alt="CIM Personalizados"
+              class="brand-logo"
+          /></span>
+          <span data-config="short-name">CIM Personalizados</span></a
+        >
+        <button
+          class="nav-toggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav class="site-nav">
+          <a href="index.html">Início</a>
+          <a href="galeria.html" class="is-active">Galeria</a>
+          <a href="contato.html">Contato</a>
+          <a
+            class="btn btn-whatsapp"
+            data-config="whatsapp-href"
+            href="#"
+            target="_blank"
+            rel="noopener"
+            >💬 WhatsApp</a
+          >
+        </nav>
       </div>
-      <div class="footer-col">
-        <h4>Navegue</h4>
-        <a href="index.html">Início</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="contato.html">Contato</a>
+    </header>
+
+    <main>
+      <section class="gallery-hero">
+        <div class="container">
+          <h1>Nossa Galeria</h1>
+          <p>
+            Clique em um produto para ver mais detalhes e perguntar pelo
+            WhatsApp.
+          </p>
+        </div>
+      </section>
+
+      <div class="filter-bar" id="filter-bar"></div>
+
+      <section style="padding-top: 0">
+        <div class="container">
+          <div class="product-grid" id="gallery-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <p class="brand">
+              <span class="brand-logo-wrap"
+                ><img
+                  src="assets/logo-mark.svg"
+                  alt="CIM Personalizados"
+                  class="brand-logo"
+              /></span>
+              <span data-config="store-name">CIM Personalizados</span>
+            </p>
+            <p>
+              Bottons, chaveiros, lembrancinhas e presentes personalizados,
+              feitos à mão com todo carinho.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Navegue</h4>
+            <a href="index.html">Início</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contato.html">Contato</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contato</h4>
+            <a data-config="phone-href" href="#"
+              ><span data-config="phone-display"></span> · WhatsApp</a
+            >
+            <a data-config="email-href" href="#"
+              ><span data-config="email"></span
+            ></a>
+            <a
+              data-config="instagram-href"
+              href="#"
+              target="_blank"
+              rel="noopener"
+              >Instagram: <span data-config="instagram-handle"></span
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          © <span data-config="year"></span>
+          <span data-config="store-name"></span>. Todos os direitos reservados.
+        </div>
       </div>
-      <div class="footer-col">
-        <h4>Contato</h4>
-        <a data-config="phone-href" href="#"><span data-config="phone-display"></span> · WhatsApp</a>
-        <a data-config="email-href" href="#"><span data-config="email"></span></a>
-        <a data-config="instagram-href" href="#" target="_blank" rel="noopener">Instagram: <span data-config="instagram-handle"></span></a>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      data-config="whatsapp-href"
+      href="#"
+      target="_blank"
+      rel="noopener"
+      aria-label="Falar no WhatsApp"
+      >💬</a
+    >
+
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-card">
+        <button class="lightbox-close" aria-label="Fechar">✕</button>
+        <div class="lightbox-photo"></div>
+        <div class="lightbox-body">
+          <span class="lightbox-category"></span>
+          <h3 class="lightbox-name"></h3>
+          <span class="lightbox-price"></span>
+          <a
+            class="btn btn-primary lightbox-ask"
+            href="#"
+            target="_blank"
+            rel="noopener"
+            >💬 Perguntar no WhatsApp</a
+          >
+        </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      © <span data-config="year"></span> <span data-config="store-name"></span>. Todos os direitos reservados.
-    </div>
-  </div>
-</footer>
 
-<a class="whatsapp-float" data-config="whatsapp-href" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">💬</a>
-
-<div class="lightbox" id="lightbox">
-  <div class="lightbox-card">
-    <button class="lightbox-close" aria-label="Fechar">✕</button>
-    <div class="lightbox-photo"></div>
-    <div class="lightbox-body">
-      <span class="lightbox-category"></span>
-      <h3 class="lightbox-name"></h3>
-      <span class="lightbox-price"></span>
-      <a class="btn btn-primary lightbox-ask" href="#" target="_blank" rel="noopener">💬 Perguntar no WhatsApp</a>
-    </div>
-  </div>
-</div>
-
-<script src="js/config.js"></script>
-<script src="js/products.js"></script>
-<script src="js/main.js"></script>
-</body>
+    <script src="js/config.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
