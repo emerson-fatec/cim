@@ -417,6 +417,7 @@ section { padding: 76px 0; }
 .cat-papelaria { background: linear-gradient(135deg, var(--pink-300), var(--pink-500)); }
 .cat-lembrancinhas { background: linear-gradient(135deg, var(--pink-600), var(--plum-800)); }
 .cat-bolsas { background: linear-gradient(135deg, var(--gold-400), var(--pink-600)); }
+.cat-3d { background: linear-gradient(135deg, var(--plum-800), var(--pink-700)); }
 
 /* ---------- Featured section footer link ---------- */
 
