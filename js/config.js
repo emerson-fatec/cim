@@ -10,7 +10,7 @@ const SITE_CONFIG = {
   whatsappMessage: "Olá! Vi o site da CIM Personalizados e gostaria de mais informações.",
 
   // PREENCHER: e-mail e Instagram reais da loja
-  email: "seuemail@exemplo.com",
+  email: "cimpersonalizadoss@gmail.com",
   instagramHandle: "@_cmpersonalizado",
   instagramUrl: "https://www.instagram.com/_cmpersonalizado/",
 
